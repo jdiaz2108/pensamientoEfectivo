@@ -2,40 +2,60 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <title>Slot Machine</title>
-  <link href="css/style.css" rel="stylesheet">
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Pensamiento Estratégico | Ruleta</title>
+  <link  rel="stylesheet" href="css/style.css">
+  <link  rel="stylesheet" href="css/bootstrap.min.css">
   <!-- <link rel="shorcut icon" href="img/favicon.png"> -->
 </head>
-<body><div class="machine">
-    <div class="row wrap">
-      <div class="col-md-12 smartWatch">
-        <div class="optionContainer" id="machine1">
-          <span class="option"><img class="case-item" src="img/angela_veloza.jpg" alt="Angela"></span>
-          <span class="option"><img class="case-item" src="img/alejandro_roman.jpg" alt="Alejandro"></span>
-          <span class="option"><img class="case-item" src="img/yiseth_caicedo.jpg" alt="Yiseth"></span>
-          <span class="option"><img class="case-item" src="img/cesar_zambrano.jpg" alt="Cesar"></span>
-          <span class="option"><img class="case-item" src="img/angelica_castro.jpg" alt="Angelica"></span>
-          <span class="option"><img class="case-item" src="img/horacio_plata.jpg" alt="Horacio"></span>
-          <span class="option"><img class="case-item" src="img/sandra_herrera.jpg" alt="Sandra"></span>
-          <span class="option"><img class="case-item" src="img/elizabeth_rodriguez.jpg" alt="Elizabeth"></span>
-          <span class="option"><img class="case-item" src="img/julian_mantilla.jpg" alt="Julian"></span>
-          <span class="option"><img class="case-item" src="img/jacqueline_gallo.jpg" alt="Jacqueline"></span>
-          <span class="option"><img class="case-item" src="img/manuel_salvador.jpg" alt="Manuel"></span>
-          <span class="option"><img class="case-item" src="img/karen_velasquez.jpg" alt="Karen"></span>
-          <span class="option"><img class="case-item" src="img/ricardo_monroy.jpg" alt="Ricardo"></span>
-          <span class="option"><img class="case-item" src="img/kelly_martinez.jpg" alt="Kelly"></span>
-          <span class="option"><img class="case-item" src="img/maria_del_pilar.jpg" alt="Maria del Pilar"></span>
+<body>
+  <header class="header">
+    <h1>Ruleta</h1>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <div class="machine">
+          <div class="row wrap">
+            <div class="col-md-12 smartWatch">
+              <div class="optionContainer" id="machine1">
+                <span class="option"><img class="case-item" src="img/angela_veloza.jpg" alt="Ángela"></span>
+                <span class="option"><img class="case-item" src="img/alejandro_roman.jpg" alt="Alejandro"></span>
+                <span class="option"><img class="case-item" src="img/yiseth_caicedo.jpg" alt="Yiseth"></span>
+                <span class="option"><img class="case-item" src="img/cesar_zambrano.jpg" alt="César"></span>
+                <span class="option"><img class="case-item" src="img/angelica_castro.jpg" alt="Angélica"></span>
+                <span class="option"><img class="case-item" src="img/horacio_plata.jpg" alt="Horacio"></span>
+                <span class="option"><img class="case-item" src="img/sandra_herrera.jpg" alt="Sandra"></span>
+                <span class="option"><img class="case-item" src="img/elizabeth_rodriguez.jpg" alt="Elizabeth"></span>
+                <span class="option"><img class="case-item" src="img/julian_mantilla.jpg" alt="Julián"></span>
+                <span class="option"><img class="case-item" src="img/jacqueline_gallo.jpg" alt="Jacqueline"></span>
+                <span class="option"><img class="case-item" src="img/manuel_salvador.jpg" alt="Manuel"></span>
+                <span class="option"><img class="case-item" src="img/karen_velasquez.jpg" alt="Karen"></span>
+                <span class="option"><img class="case-item" src="img/ricardo_monroy.jpg" alt="Ricardo"></span>
+                <span class="option"><img class="case-item" src="img/kelly_martinez.jpg" alt="Kelly"></span>
+                <span class="option"><img class="case-item" src="img/maria_del_pilar.jpg" alt="Maria del Pilar"></span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col-md-12">
+      <div class="col-6 my-auto text-center">
         <div id="results"></div>
-      </div>
-      <div class="mashupButton">
-        <button class="button" id="randomizeButton">Girar</button>
+        <div class="mashupButton align-middle">
+          <button class="btn btn-primary button align-middle" id="randomizeButton">Girar</button>
+        </div> 
       </div>
     </div>
-  </div><!-- Scripts / Do not delete please :) -->
+  </div>
+  <footer>
+    <div class="row">
+      <div class="col-6"><h2>Pensamiento Estratégico</h2></div>
+      <div class="col-6"><img class="logos" src="img/logos.png" alt="Logos Universidad Claro COmercial y PMK psicomarketing"></div>
+    </div>
+  </footer>
+
+  <!-- Scripts / Do not delete please :) -->
   <script src='js/jquery-3.2.1.min.js'>
   </script> 
   <script src='js/jquery.slotmachine.min.js'>

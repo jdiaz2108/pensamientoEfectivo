@@ -80,6 +80,7 @@
                                                             small-chips
                                                             item-text="name"
                                                             item-value="id"
+                                                            deletable-chips="true"
                                                             ></v-combobox>
                                                         </v-list-tile-content>
                                                     </v-list-tile>
@@ -222,7 +223,7 @@ export default {
       users: [
         {
             id: 1,
-            name: 'Maria Del Pilar',
+            name: 'María del Pilar',
             score: 0
         },
         {
@@ -232,7 +233,7 @@ export default {
         },
         {
             id: 3,
-            name: 'Julian Mantilla',
+            name: 'Julián Mantilla',
             score: 0
         },
         {
@@ -242,27 +243,27 @@ export default {
         },
         {
             id: 5,
-            name: 'Manuel Salvador Perez',
+            name: 'Manuel Salvador Pérez',
             score: 0
         },
         {
             id: 6,
-            name: 'Elizabeth Rodriguez',
+            name: 'Elizabeth Rodríguez',
             score: 0
         },
         {
             id: 7,
-            name: 'Angelica Castro',
+            name: 'Angélica Castro',
             score: 0
         },
         {
             id: 8,
-            name: 'Karen Velasquez',
+            name: 'Karen Velásquez',
             score: 0
         },
         {
             id: 9,
-            name: 'Angela Veloza',
+            name: 'Ángela Veloza',
             score: 0
         },
         {
@@ -277,12 +278,12 @@ export default {
         },
         {
             id: 12,
-            name: 'Cesar Zambrano',
+            name: 'César Zambrano',
             score: 0
         },
         {
             id: 13,
-            name: 'Alejandro Roman',
+            name: 'Alejandro Román',
             score: 0
         },
         {
@@ -292,7 +293,7 @@ export default {
         },
         {
             id: 15,
-            name: 'Kelly Martinez',
+            name: 'Kelly Martínez',
             score: 0
         },
 
@@ -319,6 +320,7 @@ export default {
       this.users.splice(index, 1)
     },
   }
+
 }
 </script>
 
