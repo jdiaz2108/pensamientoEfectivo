@@ -1,0 +1,18 @@
+ El volumen de la unidad C es OS
+ El n£mero de serie del volumen es: EC9F-DFFC
+
+ Directorio de C:\xampp\htdocs\pensamiento-estrategico\slot-machine
+
+27/02/2019  05:01 p. m.    <DIR>          .
+27/02/2019  05:01 p. m.    <DIR>          ..
+27/02/2019  03:44 p. m.    <DIR>          css
+27/02/2019  05:01 p. m.                 0 filename.txt
+27/02/2019  04:53 p. m.    <DIR>          img
+27/02/2019  04:54 p. m.             1.383 index.html
+27/02/2019  03:44 p. m.    <DIR>          js
+08/11/2018  02:01 p. m.             1.113 license.txt
+08/11/2018  02:01 p. m.               190 README.txt
+27/02/2019  03:44 p. m.    <DIR>          resources
+27/02/2019  03:44 p. m.    <DIR>          scss
+               4 archivos          2.686 bytes
+               7 dirs  795.974.729.728 bytes libres

@@ -1,0 +1,32 @@
+ El volumen de la unidad C es OS
+ El n£mero de serie del volumen es: EC9F-DFFC
+
+ Directorio de C:\xampp\htdocs\pensamiento-estrategico\slot-machine\img
+
+28/02/2019  09:43 a. m.    <DIR>          .
+28/02/2019  09:43 a. m.    <DIR>          ..
+27/02/2019  04:04 p. m.           136.960 alejandro_roman.jpg
+27/02/2019  04:39 p. m.           119.759 angela_veloza.jpg
+27/02/2019  03:50 p. m.            91.915 angelica_castro.jpg
+27/02/2019  04:42 p. m.           113.439 cesar_zambrano.jpg
+27/02/2019  03:46 p. m.           115.309 elizabeth_rodriguez.jpg
+27/02/2019  05:07 p. m.               795 filename.txt
+27/02/2019  03:52 p. m.           124.683 horacio_plata.jpg
+15/02/2019  04:33 p. m.            18.886 img-01.png
+15/02/2019  04:34 p. m.            34.098 img-02.png
+15/02/2019  04:34 p. m.            30.736 img-03.png
+15/02/2019  04:34 p. m.            29.549 img-04.png
+28/02/2019  09:43 a. m.                 0 imgNames.txt
+28/02/2019  09:36 a. m.           105.580 jacqueline_gallo.jpg
+28/02/2019  09:38 a. m.            79.121 julian_mantilla.jpg
+28/02/2019  09:36 a. m.           129.933 karen_velasquez.jpg
+27/02/2019  05:27 p. m.            83.058 kelly_martinez.jpg
+27/02/2019  03:54 p. m.           129.323 manuel_salvador.jpg
+27/02/2019  03:43 p. m.           118.049 maria_del_pilar.jpg
+28/02/2019  09:38 a. m.           127.067 ricardo_monroy.jpg
+28/02/2019  09:36 a. m.           153.840 sandra_herrera.jpg
+15/02/2019  09:34 a. m.         1.457.176 smartwatch-03.png
+18/02/2019  09:17 a. m.           230.373 smartwatch-04.png
+27/02/2019  03:39 p. m.            93.270 yiseth_caicedo.jpg
+              23 archivos      3.522.919 bytes
+               2 dirs  798.845.566.976 bytes libres

@@ -1,0 +1,92 @@
+$gutter: 28px;
+$color-white: #fff;
+$color-primary-white: #fefefe;
+$color-secondary-white: #efefef;
+$color-black: #000;
+$color-primary-black: #000;
+$color-secondary-black: #111;
+$color-light-gray: #505254;
+$color-dark-gray: #242627;
+$color-brand-green: #05CC47;
+$color-sprimary-green: #1F3525;
+$color-secondary-green: #437050;
+$color-primary-orange: #F7580A;
+$color-secondary-orange: #FF9526;
+
+.slotMachineNoTransition {
+  transition: none !important;
+}
+
+.slotMachineBlurFast {
+  filter: blur(5px);
+}
+
+.slotMachineBlurMedium {
+  filter: blur(3px);
+}
+
+.slotMachineBlurSlow {
+  filter: blur(2px);
+}
+
+.slotMachineBlurTurtle {
+  filter: blur(1px);
+}
+.machine {
+  padding: ($gutter * 3) 0;
+  background: $color-dark-gray;
+  .wrap {
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+  .column {
+    display: inline-block;
+    width: 40%;
+    padding: 0 5%;
+    float: left;
+  }
+  .row {
+    clear: both;
+  }
+  .optionContainer, .option {
+    height: ($gutter * 5);
+  }
+  .optionContainer {
+    color: $color-primary-white;
+    background: $color-brand-green;
+    border-radius: 5px;
+    margin: 0 auto ($gutter * 2);
+  }
+  .option {
+    box-sizing: border-box;
+    display: block;
+    padding: $gutter;
+    text-align: center;
+    font-size: 30px;
+    span {
+      display: inline-block;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+  .mashupButton {
+    position: relative;
+    padding: ($gutter * 1) 0 0;
+    text-align: center;
+
+    .button {
+      display: inline-block;
+      margin: 0 auto;
+      padding: $gutter ($gutter * 2);
+      font-size: 32px;
+      box-shadow: 0 7px 16px rgba(0, 0, 0, 1);
+      &:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, .6);
+      }
+      &:active {
+        transform: translateY(4px);
+      }
+    }
+  }
+}
